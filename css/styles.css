@@ -1,0 +1,130 @@
+body {
+    color: #585858;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%;
+    /* 25.2px */
+    background-color: #FFF;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 350px;
+    padding: 0 12px;
+    margin: 0 auto;
+}
+
+.header-img {
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 21px;
+}
+
+.header-wrap {
+    padding-left: 25px;
+    margin-bottom: 25px;
+}
+
+
+.header-title {
+    color: var(--black, #1F1F1F);
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 145%;
+    /* 34.8px */
+    letter-spacing: -0.48px;
+    text-transform: capitalize;
+}
+
+.header-text {}
+
+.header-btn {
+    background: linear-gradient(79deg, rgba(111, 58, 27, 0.06) -2.75%, rgba(255, 255, 255, 0.00) 101.74%);
+
+    width: 150px;
+    padding: 7px 40px 7px 25px;
+    color: #ED553B;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 220%;
+    /* 30.8px */
+    letter-spacing: 1.4px;
+
+    border-radius: 7px;
+    border: 1px solid #EF6952;
+}
+
+.list-wrap {
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+
+
+    margin-top: 19px;
+    width: 104px;
+    height: 31px;
+}
+
+.list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: calc((100% - 12px) / 4);
+
+}
+
+.list-link {}
+
+.list-circle {
+    background-color: #bebebe;
+    border-radius: 50%;
+}
+
+.wrapper {
+    margin: 65px 34px 70px 25px;
+}
+
+.separator {
+    color: #ED553B;
+    font-family: Poppins;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.4px;
+}
+
+.sect1-title {
+    color: #000;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 136%;
+    /* 32.64px */
+}
+
+.sect1-text {}
+
+.sect1-list {
+    display: flex;
+    flex-direction: column;
+    gap: 50px
+}
+
+.sect1-cards {}
+
+.cards-title {}
