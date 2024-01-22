@@ -90,17 +90,32 @@ ol {
 
 }
 
+.list-link {
+    transition-duration: 50ms;
+    transition-timing-function: ease-out;
+}
 
-.list-link {}
+.list-link:focus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    border: 1px solid #ED553B;
+    border-radius: 50%;
+}
+
 
 .list-circle {
     background-color: #bebebe;
     border-radius: 50%;
+    transition-property: background-color;
+    transition-duration: 150ms;
 }
 
 .list-circle:hover {
     background-color: var(--orange, #ED553B);
 }
+
 
 .wrapper {
     margin: 65px 34px 70px 25px;
